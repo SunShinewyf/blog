@@ -1,0 +1,23 @@
+<include file="Public:header"/>
+     <body> 
+ <include file="Public:slide"/>
+     <div id="container">
+        <div class="main-left">
+        
+            <ul class="article">
+              <volist name="list" id="id">
+                <li class="parts">
+                  <p class="article-title"> <a href="__URL__/detail/e/{$id.aid}">{$id['atitle']}</a></p>
+                  <p1 class="article-details"><font class="date">发布于:{$id['aupdate']}</font>&nbsp;&nbsp;<font class="skan">浏览次数:{$id['atime']}</font>&nbsp;&nbsp;<font class="type">分类:{$id['Module']['mname']}</font></p1></br>
+                  <p1 class="article-content">{$id['acontent']|strip_tags|subtext=200}</p1>
+                  <div class="see-more"><a href="__URL__/detail/e/{$id.aid}">查看全文</a></div>
+                </li>
+           </volist>
+            </ul>
+        
+        </div>
+        
+     <include file="Public:main_right"/>  
+     
+     </div>
+   <include file="Public:footer"/> 

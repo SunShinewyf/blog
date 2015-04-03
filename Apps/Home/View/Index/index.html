@@ -1,0 +1,63 @@
+<include file="Public:header"/>
+ <body> 
+ <include file="Public:slide"/>
+     
+     <div id="container">
+        <div class="main-left">
+            <ul class="article">
+            <volist name="list" id="id">
+            
+                <li class="parts">
+                  <p class="article-title"> <a href="__URL__/detail/e/{$id.aid}">{$id['atitle']}</a></p>
+                  <p1 class="article-details"><font class="date">发布于:{$id['aupdate']}</font>&nbsp;&nbsp;<font class="skan">浏览次数:{$id['atime']}</font>&nbsp;&nbsp;<font class="type">分类:{$id['Module']['mname']}</font></p1></br>
+                  <p1 class="article-content">{$id['acontent']|strip_tags|subtext=200}</p1>
+                  <div class="see-more"><a href="__URL__/detail/e/{$id.aid}">查看全文</a></div>
+                </li>
+           </volist>
+            </ul>
+           <div class="boxs">
+               <h1>前端技术区</h1>
+               <ul class="type-list">
+                   <volist name="home" id="ho">
+                       <li><a href="__URL__/detail/e/{$ho.aid}">{$ho.atitle|subtext=28}</a></li>
+                   </volist>
+               </ul>
+           
+           </div>
+           
+           <div class="boxs">
+               <h1>后端技术区</h1>
+                 <ul class="type-list">
+                   <volist name="admin" id="ad">
+                       <li><a href="__URL__/detail/e/{$ad.aid}">{$ad.atitle|subtext=28}</a></li>
+                   </volist>
+                 </ul>
+           </div>
+            <div class="boxs" style="margin-bottom:20px;">
+                <h1>最新留言</h1>
+                  <ul class="type-list">
+                <volist name="mess" id="me">
+                    <li><a href="__URL__/message">{$me.mcontent|subtext=28}</a></li>
+                </volist>
+                </ul>
+           </div>
+           
+           <div class="boxs"  style="margin-bottom:20px;">
+              <h1>最新感悟</h1>
+                <ul class="type-list">
+                  <volist name="feel" id="fe">
+                    <li><a href="">{$fe.fcontent|subtext=28}</a></li>
+                </volist>
+                </ul>
+           </div>
+        </div>
+        
+     <include file="Public:main_right"/>  
+     
+     </div>
+    </div>
+ <include file="Public:footer"/>  
+
+     
+     
+

@@ -1,0 +1,41 @@
+<include file="Public:header"/>
+ <body> 
+ <include file="Public:slide"/>
+     
+     <div id="container">
+        <div class="main-left">
+            <div class="mess-list">
+               <h1>留言列表</h1>
+               <volist name="mess" id="me">
+               <div class="mess-box">
+                   <p1><font class="author">昵称:&nbsp;&nbsp;{$me.mauthor}</font>&nbsp;&nbsp;&nbsp;&nbsp;<font class="time">留言时间:&nbsp;&nbsp;{$me.mtime}</font></p1>
+                   <p>{$me.mcontent}</p>
+                    </div>
+                </volist>
+               <div class="pages">
+                        {$page}
+                </div>
+            </div>
+            
+        <div class="add-box">
+           <h1>提交留言</h1>
+           <form id="mess-box" action="__URL__/add" method="post">
+            <label for="nickname">昵称:</label>
+            <input type="text" class="text-type" name="nickname" id="nickname"/>&nbsp;&nbsp;<font style="color:red">*</font></br>
+            <label for="content">内容:</label>
+            <script type="text/plain" id="editor" name="content">
+  		    </script>
+  		    <input type="submit" id="sub-btn" value="提交留言"/>
+  		    <div id="msg"></div>
+  		   </form>
+        </div>
+               
+        </div>
+        
+       
+     <include file="Public:main_right"/>  
+     
+     </div>
+
+ <include file="Public:footer"/>  
+        

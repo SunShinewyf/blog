@@ -1,0 +1,1487 @@
+[ 2015-03-28T07:57:01+08:00 ] ::1 /blog/index.php/Admin/Login/recheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003214s ]
+NOTIC: [8] Undefined index: username G:\wamp\www\blog\Apps\Admin\Controller\LoginController.class.php 第 12 行.
+NOTIC: [8] Undefined index: password G:\wamp\www\blog\Apps\Admin\Controller\LoginController.class.php 第 13 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_admin` [ RunTime:1.789445s ]
+SQL: SELECT * FROM `bl_admin`  [ RunTime:0.086883s ]
+
+[ 2015-03-28T08:01:59+08:00 ] ::1 /blog/index.php/Admin/Module/Module
+ERR: 非法操作:module
+
+[ 2015-03-28T08:40:00+08:00 ] ::1 /blog/index.php/Admin/Module/updata?eid=
+ERR: 非法操作:updata
+
+[ 2015-03-28T08:48:30+08:00 ] ::1 /blog/index.php/Admin/Module/edit/id/4
+ERR: 模板不存在:./Apps/Admin/View/Module/edit.html
+
+[ 2015-03-28T08:49:10+08:00 ] ::1 /blog/index.php/Admin/Module/edit/id/4
+ERR: 模板不存在:./Apps/Admin/View/Module/edit.html
+
+[ 2015-03-28T08:50:43+08:00 ] ::1 /blog/index.php/Admin/Module/edit/id/4
+ERR: 模板不存在:./Apps/Admin/View/Module/edit.html
+
+[ 2015-03-28T08:51:37+08:00 ] ::1 /blog/index.php/Admin/Module/edit/id/4
+ERR: 模板不存在:./Apps/Admin/View/Module/edit.html
+
+[ 2015-03-28T08:51:42+08:00 ] ::1 /blog/index.php/Admin/Module/edit/id/4
+ERR: 模板不存在:./Apps/Admin/View/Module/edit.html
+
+[ 2015-03-28T09:01:58+08:00 ] ::1 /blog/index.php/Admin/Module/__URL__/index
+ERR: 非法操作:__url__
+
+[ 2015-03-28T09:02:24+08:00 ] ::1 /blog/index.php/Admin/Module/__URL__/index
+ERR: 非法操作:__url__
+
+[ 2015-03-28T09:09:03+08:00 ] ::1 /blog/index.php/Admin/Module/__URL__/index
+ERR: 非法操作:__url__
+
+[ 2015-03-28T09:09:06+08:00 ] ::1 /blog/index.php/Admin/Module/__URL__/index
+ERR: 非法操作:__url__
+
+[ 2015-03-28T09:49:37+08:00 ] ::1 /blog/index.php/Admin/Article/index
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-03-28T09:50:01+08:00 ] ::1 /blog/index.php/Admin/Article/index
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-03-28T09:51:20+08:00 ] ::1 /blog/index.php/Admin/Article/index
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-03-28T09:53:38+08:00 ] ::1 /blog/index.php/Admin/Article/index
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-03-28T10:45:08+08:00 ] ::1 /blog/index.php/Admin/Article/save
+ERR: 非法操作:save
+
+[ 2015-03-28T14:25:16+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005470s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000561s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001341s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.048999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002698s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003451s ]
+
+[ 2015-03-28T14:31:01+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003997s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000380s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000874s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.030462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003115s ]
+
+[ 2015-03-28T14:31:11+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004783s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000385s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000903s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.030223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002889s ]
+
+[ 2015-03-28T14:32:05+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000405s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000907s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003033s ]
+
+[ 2015-03-28T14:34:52+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000436s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000939s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.033209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001949s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004259s ]
+
+[ 2015-03-28T14:35:25+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005377s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000487s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001144s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.033102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004686s ]
+
+[ 2015-03-28T14:36:26+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005887s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000468s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000922s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.032608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.005903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006474s ]
+
+[ 2015-03-28T14:36:29+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003870s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000648s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001084s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.035843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004863s ]
+
+[ 2015-03-28T14:37:47+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004493s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000942s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.034480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.008791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010207s ]
+
+[ 2015-03-28T14:38:40+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000501s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000932s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.033860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034448s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005730s ]
+
+[ 2015-03-28T14:39:28+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004180s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000483s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000945s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.034322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004481s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.007280s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008290s ]
+
+[ 2015-03-28T14:40:09+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004910s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000540s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001087s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.033064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002004s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.007409s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008003s ]
+
+[ 2015-03-28T14:41:36+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005167s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000566s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001104s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.032526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001995s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004142s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004805s ]
+
+[ 2015-03-28T14:42:10+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004225s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000673s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001343s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.041696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001986s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.006870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007958s ]
+
+[ 2015-03-28T14:43:59+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003891s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000466s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000923s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.032745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004856s ]
+
+[ 2015-03-28T14:44:42+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005283s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000542s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001046s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.032156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003424s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003890s ]
+
+[ 2015-03-28T14:46:10+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004051s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000539s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001207s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.034069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004512s ]
+
+[ 2015-03-28T14:47:41+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004639s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000670s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001321s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001918s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004601s ]
+
+[ 2015-03-28T14:48:41+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003954s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000502s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000985s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.032243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002778s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004229s ]
+
+[ 2015-03-28T14:49:04+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004322s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000651s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001309s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.032396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002606s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003989s ]
+
+[ 2015-03-28T14:49:40+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004905s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000420s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.033404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001951s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005153s ]
+
+[ 2015-03-28T14:50:23+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004093s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000414s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000886s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001998s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002679s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.005358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006379s ]
+
+[ 2015-03-28T14:51:27+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004334s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000396s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000858s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001998s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.005499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006234s ]
+
+[ 2015-03-28T14:52:27+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003964s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000417s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000851s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.032660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001901s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005553s ]
+
+[ 2015-03-28T14:52:52+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003679s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000395s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000915s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.036763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.007899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008701s ]
+
+[ 2015-03-28T14:53:19+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005038s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000394s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000863s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.029625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001955s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.005307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006239s ]
+
+[ 2015-03-28T14:54:02+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003854s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000396s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000866s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001891s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004634s ]
+
+[ 2015-03-28T14:54:21+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003905s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000419s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000854s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.030525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001915s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005580s ]
+
+[ 2015-03-28T14:54:33+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005124s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000435s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001088s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.035073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001796s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.008857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009788s ]
+
+[ 2015-03-28T14:54:42+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003931s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000710s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001493s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.037788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.006555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007527s ]
+
+[ 2015-03-28T14:55:03+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005252s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000397s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000888s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.029726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001886s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.005853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006649s ]
+
+[ 2015-03-28T14:55:05+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004234s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000515s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000996s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.033610s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002723s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.008911s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009532s ]
+
+[ 2015-03-28T14:55:38+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004328s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000440s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000928s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.032019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001934s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.005599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006167s ]
+
+[ 2015-03-28T14:55:46+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004936s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000574s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001271s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.037268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006021s ]
+
+[ 2015-03-28T14:56:41+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004095s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000424s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000975s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.033100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002801s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003572s ]
+
+[ 2015-03-28T14:57:37+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004609s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001871s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.040217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.008712s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009353s ]
+
+[ 2015-03-28T14:57:47+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005096s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000508s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000954s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.030251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001879s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004679s ]
+
+[ 2015-03-28T14:57:55+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004741s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000400s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000981s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.039650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.007547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008893s ]
+
+[ 2015-03-28T14:58:28+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004995s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000667s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001216s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001974s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003762s ]
+
+[ 2015-03-28T14:59:14+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004167s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000612s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001472s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.036583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004739s ]
+
+[ 2015-03-28T14:59:27+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004446s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000413s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000843s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.028102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003410s ]
+
+[ 2015-03-28T14:59:35+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004587s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000431s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000951s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.032771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033286s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001950s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003247s ]
+
+[ 2015-03-28T14:59:41+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004422s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000557s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001363s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001998s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004502s ]
+
+[ 2015-03-28T14:59:52+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004916s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000393s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000858s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.029364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.005824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006477s ]
+
+[ 2015-03-28T15:00:28+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004846s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000394s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000845s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.032914s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002856s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005104s ]
+
+[ 2015-03-28T15:00:49+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003959s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000488s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000933s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.028534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003909s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004215s ]
+
+[ 2015-03-28T15:00:51+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004632s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000465s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000908s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.032736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002005s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.006543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008158s ]
+
+[ 2015-03-28T15:15:06+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004843s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000726s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002157s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.033157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.006462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007286s ]
+
+[ 2015-03-28T15:15:10+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004749s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000402s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000996s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.029665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001909s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005178s ]
+
+[ 2015-03-28T15:15:25+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004823s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000432s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000983s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.030619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001896s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004462s ]
+
+[ 2015-03-28T15:16:08+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004388s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000399s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000871s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.032805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002967s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004981s ]
+
+[ 2015-03-28T15:16:52+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004777s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000670s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001491s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.044347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044830s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001803s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.005326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007119s ]
+
+[ 2015-03-28T15:17:02+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004772s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000782s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001679s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.035094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003647s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004096s ]
+
+[ 2015-03-28T15:32:16+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004679s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000401s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000873s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.035706s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001736s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003582s ]
+
+[ 2015-03-28T15:33:42+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005874s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000709s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001676s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.043975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.005301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.017220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020096s ]
+
+[ 2015-03-28T15:34:32+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005494s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000683s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001444s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.047607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002996s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.053010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.054062s ]
+
+[ 2015-03-28T15:37:45+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005145s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000448s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001190s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.030447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003515s ]
+
+[ 2015-03-28T15:38:46+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005477s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000431s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000873s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.030996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004428s ]
+
+[ 2015-03-28T15:39:00+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005644s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000514s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001062s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005410s ]
+
+[ 2015-03-28T15:39:23+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004800s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000407s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000852s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.030544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001910s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004674s ]
+
+[ 2015-03-28T15:40:01+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004083s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000477s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001031s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.030909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003859s ]
+
+[ 2015-03-28T15:40:26+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004220s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000413s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000866s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.035742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002838s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004539s ]
+
+[ 2015-03-28T15:40:30+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004387s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000406s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000877s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001877s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.005384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006139s ]
+
+[ 2015-03-28T15:40:39+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003957s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000846s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001865s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.032141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004512s ]
+
+[ 2015-03-28T15:41:41+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004291s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000425s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000913s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.005851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006508s ]
+
+[ 2015-03-28T15:42:22+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004598s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000404s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000827s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.033208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.008837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009714s ]
+
+[ 2015-03-28T15:43:01+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003885s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000425s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001009s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001954s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004047s ]
+
+[ 2015-03-28T15:43:52+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004611s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000405s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000859s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.030771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005009s ]
+
+[ 2015-03-28T15:44:09+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003506s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000480s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000968s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.032058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004127s ]
+
+[ 2015-03-28T15:46:30+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004611s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000452s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000889s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.032498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004750s ]
+
+[ 2015-03-28T15:47:53+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003822s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000432s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000916s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.039853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.005235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005878s ]
+
+[ 2015-03-28T15:48:42+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004957s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000403s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000849s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032692s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005629s ]
+
+[ 2015-03-28T15:50:53+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003939s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000399s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000831s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.032644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.005361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006063s ]
+
+[ 2015-03-28T15:52:24+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004686s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000452s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000885s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005063s ]
+
+[ 2015-03-28T15:53:22+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003735s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000628s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001297s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.032066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001892s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.007584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008466s ]
+
+[ 2015-03-28T15:54:41+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004934s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000414s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000847s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.033089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002908s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.009984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010797s ]
+
+[ 2015-03-28T15:56:00+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004284s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000406s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000866s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.028306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005612s ]
+
+[ 2015-03-28T15:56:17+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004718s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000432s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000939s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.032313s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001966s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.005534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006721s ]
+
+[ 2015-03-28T15:56:47+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004659s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000520s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001156s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.029845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001908s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004236s ]
+
+[ 2015-03-28T16:30:17+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006305s ]
+
+[ 2015-03-28T16:30:21+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005749s ]
+
+[ 2015-03-28T16:30:32+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006097s ]
+ERR: 没有定义数据库配置
+
+[ 2015-03-28T16:30:34+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004163s ]
+ERR: 没有定义数据库配置
+
+[ 2015-03-28T16:30:41+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004253s ]
+ERR: 没有定义数据库配置
+
+[ 2015-03-28T16:30:49+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004051s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000423s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000944s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.034001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002036s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003368s ]
+
+[ 2015-03-28T16:30:57+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004169s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000727s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001401s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.032393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004227s ]
+
+[ 2015-03-28T16:50:04+08:00 ] ::1 /blog/
+ERR: XML标签语法错误 : condition=$vo['mid'] eq $li['parentid']"
+
+[ 2015-03-28T17:07:31+08:00 ] ::1 /blog/
+ERR: Think\Model:relation方法不存在！
+
+[ 2015-03-28T19:09:37+08:00 ] ::1 /blog/index.php/Home/Index/articlelist/e/6
+ERR: Think\Model:findAll方法不存在！
+
+[ 2015-03-28T19:09:56+08:00 ] ::1 /blog/index.php/Home/Index/articlelist/e/6
+ERR: Think\Model:findall方法不存在！
+
+[ 2015-03-28T19:23:30+08:00 ] ::1 /blog/index.php/Home/Index/articlelist/e/6
+ERR: 表达式错误:4
+
+[ 2015-03-28T19:30:44+08:00 ] ::1 /blog/index.php/Home/Index/articlelist/e/6
+ERR: 表达式错误:4
+
+[ 2015-03-28T19:31:01+08:00 ] ::1 /blog/index.php/Home/Index/articlelist/e/6
+ERR: 表达式错误:4
+
+[ 2015-03-28T19:35:36+08:00 ] ::1 /blog/index.php/Home/Index/articlelist/e/6
+ERR: 表达式错误:4
+

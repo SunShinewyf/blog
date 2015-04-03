@@ -1,0 +1,44 @@
+<include file="Public:header"/>
+     <div id="sidebar">
+     <include file="Public:sidebar"/>
+     </div>
+     <div id="main">
+         <div class="page-title">
+            	系统首页&nbsp;&nbsp; <small>欢迎使用个人博客系统 </small>
+         </div>
+         
+         <div class="catalog">
+             <a href="">首页 &nbsp;&nbsp;>&nbsp;&nbsp;文章列表</a> 
+         </div>
+         
+           
+         <div class="parts">
+            <div class="artile-list">
+               <h>留言列表</h>
+                  <table>
+                    <tr>
+                       <th class="first">编号</th>
+                       <th class="first">留言人昵称</th>
+                       <th class="first">留言内容</th>
+                       <th class="first">留言时间</th>
+                       <th class="first">操作</th>
+                    
+                    </tr>
+                   <volist name="list" id="vo">
+                     <tr>
+				    	<th>{$vo.mid}</th><th>{$vo.mauthor}</th><th>{$vo.mcontent|strip_tags|subtext=10}</th><th>{$vo['mtime']}</th><th><a href="__URL__/delete/id/{$vo.fid}" onclick="return confirm('确定要删除这篇文章吗?');">删除&nbsp;</a></th>
+				    </tr>
+                   </volist>
+                   
+                </table>
+                
+            {$page}
+              
+            </div>
+         
+         </div>
+         
+      </div>
+    </body>
+    
+    </html>

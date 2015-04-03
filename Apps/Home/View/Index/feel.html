@@ -1,0 +1,30 @@
+<include file="Public:header"/>
+ <body> 
+ <include file="Public:slide"/>
+     
+     <div id="container">
+        <div class="main-left">
+            <div class="mess-list">
+               <h1>个人微语列表</h1>
+               <volist name="list" id="vo">
+               <div class="mess-box">
+                   <p1><font class="time">留言时间:&nbsp;&nbsp;{$vo.ftime}</font></p1>
+                   <p>{$vo.fcontent}</p>
+                    </div>
+                </volist>
+               <div class="pages">
+                        {$page}
+                </div>
+            </div>
+            
+      
+               
+        </div>
+        
+       
+     <include file="Public:main_right"/>  
+     
+     </div>
+
+ <include file="Public:footer"/>  
+        

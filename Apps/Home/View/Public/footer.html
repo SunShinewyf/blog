@@ -1,0 +1,90 @@
+<div id="footer">
+   <p>Powerby SunShine &nbsp;&nbsp;&nbsp 鄂ICP备15002472号-1</p>
+    <p>CopyRight©2015 版权所有：SunShine</p>
+</div>
+ <script type="text/javascript"  src="__PUBLIC__/Js/jquery.min.js"></script>
+    <script type="text/javascript">
+
+    //实例化编辑器
+    //建议使用工厂方法getEditor创建和引用编辑器实例，如果在某个闭包下引用该编辑器，直接调用UE.getEditor('editor')就能拿到相关的实例
+    UE.getEditor('editor');
+ 
+   </script>
+ <script type="text/javascript">
+     $(function(){
+    	 var tent = $('.title-list li');
+    	// alert(tent.length);
+    	if(tent.length==0)
+    		{
+    		    $.get("__URL__/tui",function(data){
+    		        $(".title-list").empty();
+			        var count = data.length;
+                    var i = 0;
+                    var b="";
+                       for(i=0;i<count;i++){
+                           b += '<li><a href="__URL__/detail/e/'+data[i].aid+'">'+ data[i].atitle +'</a></li>';
+                       }
+                    $(".title-list").append(b);
+    		    });
+    		}
+    	
+    	 $("#hot").mouseover(function(){
+    		 $.ajax({
+    			 url: "__URL__/hot",
+    			 type: "post",
+    			 success: function(data){
+    				    $(".title-list").empty();
+    			        var count = data.length;
+                        var i = 0;
+                        var b="";
+                           for(i=0;i<count;i++){
+                               b += '<li><a href="__URL__/detail/e/'+data[i].aid+'">'+ data[i].atitle +'</a></li>';
+                           }
+                        $(".title-list").append(b);
+    			 }
+    		 });
+    	 });
+    	 
+    	 $("#tui").mouseover(function(){
+    		 $.ajax({
+    			 url: "__URL__/tui",
+    			 type: "post",
+    			 success: function(data){
+    				    $(".title-list").empty();
+    			        var count = data.length;
+                        var i = 0;
+                        var b="";
+                           for(i=0;i<count;i++){
+                               b += '<li><a href="__URL__/detail/e/'+data[i].aid+'">'+ data[i].atitle +'</a></li>';
+                           }
+                        $(".title-list").append(b);
+    			 }
+    		 });
+    	 })
+    	 
+    	 $("#mess-box").submit(function(){
+    		 var nickname = $("#nickname");
+    		 if(nickname.val()=="")
+    			 {
+    			      $("#msg").text("请填写昵称!");
+    			     nickname.focus();
+    			     return false;
+    			 }
+    		 var ue = UE.getEditor('editor');
+  		   
+  		   if(ue.hasContents()==false)
+  		   {
+  		      //alert('ff');
+  			   $("#msg").text("请加入文章!");
+  			  ue.focus();
+  			  return false;
+  		   }
+  		  return true;
+    	 })
+    	 
+     });
+ 
+ </script>
+  
+</body>
+</html>

@@ -1,0 +1,65 @@
+<include file="Public:header"/>
+     <div id="sidebar">
+     <include file="Public:sidebar"/>
+     </div>
+     <div id="main">
+         <div class="page-title">
+            	系统首页&nbsp;&nbsp; <small>欢迎使用个人博客系统 </small>
+         </div>
+         
+         <div class="catalog">
+             <a href="">首页 &nbsp;&nbsp;>&nbsp;&nbsp;微语列表</a> 
+         </div>
+         
+           
+         <div class="parts">
+            <div class="artile-list">
+               <h>留言列表</h>
+                  <table>
+                    <tr>
+                       <th class="first">编号</th>
+                       <th class="first">微语内容</th>
+                       <th class="first">留言时间</th>
+                       <th class="first">操作</th>
+                    
+                    </tr>
+                   <volist name="list" id="vo">
+                     <tr>
+				    	<th>{$vo.fid}</th><th>{$vo.fcontent|strip_tags|subtext=30}</th><th>{$vo['ftime']}</th><th><a href="__URL__/delete/id/{$vo.fid}" onclick="return confirm('确定要删除这篇文章吗?');">删除&nbsp;</a><a href="__URL__/edit/id/{$vo['fid']}">编辑</a></th>
+				    </tr>
+                   </volist>
+                   
+                </table>
+                
+            {$page}
+              
+            </div>
+         
+         </div>
+         
+            
+             <div class="parts">
+              <div class="module-add">
+                 <h>发表微语</h>
+                 <form action="__URL__/add" method="post"  id="module-form">
+                     <script type="text/plain" id="editor" name="content" style="width:100%;">
+  				     
+                       </script>                      
+                      <input type="submit" id="btn" value="添加" style="position:relative;top:170px;left:400px;"/>
+                      <div id="msg"></div>
+                 </form>
+              </div>
+           </div>
+         
+      </div>
+       <script type="text/javascript">  var _gaq = _gaq || [];  _gaq.push(['_setAccount', 'UA-37564768-1']);  _gaq.push(['_setDomainName', 'keenthemes.com']);  _gaq.push(['_setAllowLinker', true]);  _gaq.push(['_trackPageview']);  (function() {    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);  })();</script>
+   <script type="text/javascript">
+
+    //实例化编辑器
+    //建议使用工厂方法getEditor创建和引用编辑器实例，如果在某个闭包下引用该编辑器，直接调用UE.getEditor('editor')就能拿到相关的实例
+    UE.getEditor('editor');
+ 
+   </script>
+    </body>
+    
+    </html>

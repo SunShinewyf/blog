@@ -1,0 +1,72 @@
+<include file="Public:header"/>
+     <div id="sidebar">
+     <include file="Public:sidebar"/>
+     </div>
+     <div id="main">
+         <div class="page-title">
+            	系统首页&nbsp;&nbsp; <small>欢迎使用个人博客系统 </small>
+         </div>
+         
+         <div class="catalog">
+             <a href="">首页 &nbsp;&nbsp;>&nbsp;&nbsp;模块列表</a> 
+         </div>
+         
+         <div class="parts">
+            <div class="part-desc">
+               <h>板块说明</h>
+               <p1>该板块用于显示前台所有的模块，还可以对模块进行删除和编辑</p1>
+            </div>
+         </div>
+         
+         
+           
+         <div class="parts" style="width:540px;">
+           <div class="module-list">
+              <h style="width:520px">模块列表</h>
+              <table style="width:540px">
+                 <tr>
+                    <th class="first">编号</th>
+                    <th class="first">模块名</th>
+                    <th class="first">模块所属的父级模块</th>
+                    <th class="first">模块备注</th>
+                    <th class="first">操作</th>
+                 </tr>
+               <volist name="arr" id="vo">
+				<tr>
+					<th>{$vo.mid}</th><th>{$vo.mname}</th><th>{$vo.parentid}</th><th>{$vo.mdesc}</th><th><a href="__URL__/delete/id/{$vo.mid}" onclick="return confirm('确定要删除这个模块吗?');">删除&nbsp;</a><a href="__URL__/edit/id/{$vo['mid']}">编辑</a></th>
+				</tr>
+				</volist>
+              </table>
+              </div>
+           </div>
+           
+           
+             <div class="parts" style="width:492px;margin-left:10px">
+              <div class="module-add">
+                 <h style="width:472px;">模块添加</h>
+                 <form action="__URL__/update" method="post"  id="module-form">
+                      <input type="hidden" name="mid" value="{$data['mid']}"/>
+                      <label for="name">*模块名</label>
+                      <input type="text" name="nickname" id="nickname" value="{$data['mname']}" class="box-control" />
+                        <label for="parent">*该模块的父级模块</label>
+                        <select  class="box-control" id="parentid" name="parentid">
+                         <option selected value="0">请选择该模块的父级模块</option>
+                             <volist name="parent" id="li">
+                      			 <option value="{$li.mid}"  <if condition="$li['mid'] eq $data['parentid']">selected </if>>{$li['mname']}</option>
+                  			 </volist>
+                        </select>
+                      <label for="desc">*模块备注信息</label>
+                      <input type="text" class="box-control" id="desc" value="{$data['mdesc']}" name="desc" /></br>
+                      
+                      <input type="submit" id="btn" value="编辑"/>
+                      <div id="msg"></div>
+                 </form>
+              </div>
+           </div>
+         
+  </div>
+  
+  <script type="text/javascript"  src="__PUBLIC__/Js/jquery.min.js"></script>
+          <script type="text/javascript"  src="__PUBLIC__/Js/admin.js"></script>
+  </body>
+  </html>

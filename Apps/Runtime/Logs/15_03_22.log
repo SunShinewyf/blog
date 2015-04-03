@@ -1,0 +1,546 @@
+[ 2015-03-22T14:07:27+08:00 ] ::1 /blog/index.php/Admin/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003399s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000644s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.109522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002470s ]
+
+[ 2015-03-22T14:07:38+08:00 ] ::1 /blog/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002825s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000352s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000871s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.041329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000922s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001327s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002014s ]
+
+[ 2015-03-22T14:10:23+08:00 ] ::1 /blog/index.php/Admin/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003676s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000349s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001036s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018948s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002184s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002724s ]
+
+[ 2015-03-22T15:36:55+08:00 ] ::1 /blog/index.php/Admin/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004639s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000638s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021957s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022589s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001914s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002183s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002610s ]
+
+[ 2015-03-22T16:00:37+08:00 ] ::1 /blog/index.php/Admin/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004476s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000652s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.023459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002542s ]
+
+[ 2015-03-22T16:00:40+08:00 ] ::1 /blog/index.php/Admin/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003763s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000669s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022341s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001923s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002173s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002579s ]
+
+[ 2015-03-22T16:00:42+08:00 ] ::1 /blog/index.php/Admin/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003667s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000624s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021765s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002521s ]
+
+[ 2015-03-22T16:00:45+08:00 ] ::1 /blog/index.php/Admin/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003530s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000610s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.022712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001818s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002639s ]
+
+[ 2015-03-22T16:01:47+08:00 ] ::1 /blog/index.php/Admin/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004699s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000854s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.028890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003100s ]
+
+[ 2015-03-22T16:01:51+08:00 ] ::1 /blog/index.php/Admin/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003887s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000361s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000964s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002431s ]
+
+[ 2015-03-22T16:01:52+08:00 ] ::1 /blog/index.php/Admin/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004149s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000717s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017747s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000895s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001998s ]
+
+[ 2015-03-22T16:01:54+08:00 ] ::1 /blog/index.php/Admin/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002696s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000705s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002009s ]
+
+[ 2015-03-22T16:01:55+08:00 ] ::1 /blog/index.php/Admin/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002718s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000714s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018068s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002028s ]
+
+[ 2015-03-22T16:05:52+08:00 ] ::1 /blog/index.php/Admin/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005412s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000392s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001532s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.035604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.004074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004718s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003354s ]
+
+[ 2015-03-22T16:31:53+08:00 ] ::1 /blog/index.php/Admin/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.013050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015192s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000770s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.077602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002312s ]
+
+[ 2015-03-22T16:31:58+08:00 ] ::1 /blog/index.php/Admin/Login/recheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.016795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018310s ]
+ERR: 没有定义数据库配置
+
+[ 2015-03-22T16:34:21+08:00 ] ::1 /blog/index.php/Admin/Login/recheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005697s ]
+ERR: 没有定义数据库配置
+
+[ 2015-03-22T16:34:29+08:00 ] ::1 /blog/index.php/Admin/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006398s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000639s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.082756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001936s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003311s ]
+
+[ 2015-03-22T16:34:33+08:00 ] ::1 /blog/index.php/Admin/Login/recheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003164s ]
+ERR: 没有定义数据库配置
+
+[ 2015-03-22T16:35:19+08:00 ] ::1 /blog/index.php/Admin/Login/recheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003966s ]
+ERR: 没有定义数据库配置
+
+[ 2015-03-22T16:35:24+08:00 ] ::1 /blog/index.php/Admin/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004732s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000339s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001011s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.026440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027326s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001516s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003219s ]
+
+[ 2015-03-22T16:35:27+08:00 ] ::1 /blog/index.php/Admin/Login/recheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003898s ]
+ERR: 没有定义数据库配置
+
+[ 2015-03-22T16:36:09+08:00 ] ::1 /blog/index.php/Admin/Login/recheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005357s ]
+ERR: 没有定义数据库配置
+
+[ 2015-03-22T16:36:13+08:00 ] ::1 /blog/index.php/Admin/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005224s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000844s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.028753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029431s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.003477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004327s ]
+
+[ 2015-03-22T16:36:16+08:00 ] ::1 /blog/index.php/Admin/Login/recheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003317s ]
+ERR: 没有定义数据库配置
+
+[ 2015-03-22T16:37:04+08:00 ] ::1 /blog/index.php/Admin/Login/recheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004938s ]
+ERR: 没有定义数据库配置
+
+[ 2015-03-22T16:37:07+08:00 ] ::1 /blog/index.php/Admin/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004162s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000684s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.025237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001931s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004170s ]
+
+[ 2015-03-22T16:37:10+08:00 ] ::1 /blog/index.php/Admin/Login/recheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004304s ]
+ERR: 没有定义数据库配置
+
+[ 2015-03-22T16:54:10+08:00 ] ::1 /blog/index.php/Admin/Login/recheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004614s ]
+ERR: 没有定义数据库配置
+
+[ 2015-03-22T16:56:09+08:00 ] ::1 /blog/index.php/Admin/Login/recheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004440s ]
+ERR: 没有定义数据库配置
+
+[ 2015-03-22T16:59:35+08:00 ] ::1 /blog/index.php/Admin/Login/recheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005733s ]
+ERR: 没有定义数据库配置
+
+[ 2015-03-22T16:59:41+08:00 ] ::1 /blog/index.php/Admin/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004831s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000372s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001085s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.031054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002888s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002772s ]
+
+[ 2015-03-22T16:59:44+08:00 ] ::1 /blog/index.php/Admin/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000884s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.033231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002885s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.004938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006931s ]
+
+[ 2015-03-22T16:59:46+08:00 ] ::1 /blog/index.php/Admin/Login/recheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003090s ]
+ERR: 没有定义数据库配置
+
+[ 2015-03-22T17:01:38+08:00 ] ::1 /blog/index.php/Admin/Login/recheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004383s ]
+ERR: 没有定义数据库配置
+
+[ 2015-03-22T17:13:54+08:00 ] ::1 /blog/index.php/Admin/Login/recheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004906s ]
+ERR: 没有定义数据库配置
+
+[ 2015-03-22T17:13:57+08:00 ] ::1 /blog/index.php/Admin/Login/recheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003652s ]
+ERR: 没有定义数据库配置
+
+[ 2015-03-22T17:14:54+08:00 ] ::1 /blog/index.php/Admin/Login/recheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006142s ]
+ERR: 没有定义数据库配置
+
+[ 2015-03-22T17:15:53+08:00 ] ::1 /blog/index.php/Admin/Login/recheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004440s ]
+ERR: 没有定义数据库配置
+
+[ 2015-03-22T17:15:57+08:00 ] ::1 /blog/index.php/Admin/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005363s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000277s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001006s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.030374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004730s ]
+
+[ 2015-03-22T17:15:58+08:00 ] ::1 /blog/index.php/Admin/Login/recheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006118s ]
+ERR: 没有定义数据库配置
+
+[ 2015-03-22T17:21:06+08:00 ] ::1 /blog/index.php/Admin/Login/recheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004863s ]
+ERR: 没有定义数据库配置
+
+[ 2015-03-22T17:21:09+08:00 ] ::1 /blog/index.php/Admin/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003893s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000668s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.032579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033398s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003747s ]
+
+[ 2015-03-22T17:21:12+08:00 ] ::1 /blog/index.php/Admin/Login/recheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002792s ]
+ERR: 没有定义数据库配置
+
+[ 2015-03-22T17:21:15+08:00 ] ::1 /blog/index.php/Admin/Login/recheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003779s ]
+ERR: 没有定义数据库配置
+
+[ 2015-03-22T17:21:43+08:00 ] ::1 /blog/index.php/Admin/Login/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.005103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007215s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000850s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.033231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.002850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.002650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003173s ]
+
+[ 2015-03-22T17:21:46+08:00 ] ::1 /blog/index.php/Admin/Login/recheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003108s ]
+ERR: 没有定义数据库配置
+

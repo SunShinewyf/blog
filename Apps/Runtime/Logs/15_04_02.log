@@ -1,0 +1,512 @@
+[ 2015-04-02T16:16:37+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.004092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006811s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.011754s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.005298s ]
+
+[ 2015-04-02T16:16:52+08:00 ] ::1 /blog/index.php/Admin/Login/recheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003501s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_admin` [ RunTime:0.072317s ]
+SQL: SELECT * FROM `bl_admin`  [ RunTime:0.000847s ]
+
+[ 2015-04-02T16:27:23+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004288s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.011086s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000934s ]
+
+[ 2015-04-02T16:27:51+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004735s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.009165s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000798s ]
+
+[ 2015-04-02T16:44:02+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004172s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.010988s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000819s ]
+
+[ 2015-04-02T16:44:03+08:00 ] ::1 /blog/index.php/Home/Index/hot
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003527s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.008682s ]
+SQL: SELECT * FROM `bl_article` ORDER BY aid desc LIMIT 7   [ RunTime:0.000927s ]
+
+[ 2015-04-02T16:44:03+08:00 ] ::1 /blog/index.php/Home/Index/hot
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005139s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.010180s ]
+SQL: SELECT * FROM `bl_article` ORDER BY aid desc LIMIT 7   [ RunTime:0.000776s ]
+
+[ 2015-04-02T16:44:03+08:00 ] ::1 /blog/index.php/Home/Index/hot
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.009576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011847s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.009655s ]
+SQL: SELECT * FROM `bl_article` ORDER BY aid desc LIMIT 7   [ RunTime:0.000794s ]
+
+[ 2015-04-02T16:44:04+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005088s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.008316s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000819s ]
+
+[ 2015-04-02T16:44:04+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003839s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.008804s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000845s ]
+
+[ 2015-04-02T16:50:28+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003559s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.009788s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.001044s ]
+
+[ 2015-04-02T16:50:30+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004109s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.009846s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000751s ]
+
+[ 2015-04-02T16:51:45+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004547s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.009566s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000985s ]
+
+[ 2015-04-02T16:52:55+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004819s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.011759s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000881s ]
+
+[ 2015-04-02T16:53:14+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003648s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.010247s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.001100s ]
+
+[ 2015-04-02T16:53:27+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003852s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.012227s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000880s ]
+
+[ 2015-04-02T16:57:15+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004626s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.010488s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000951s ]
+
+[ 2015-04-02T16:58:49+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005415s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.011272s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000883s ]
+
+[ 2015-04-02T17:01:02+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004898s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.010051s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000802s ]
+
+[ 2015-04-02T17:01:25+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004041s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.010878s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000952s ]
+
+[ 2015-04-02T17:01:32+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003527s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.010762s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000985s ]
+
+[ 2015-04-02T17:02:21+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003853s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.010514s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000773s ]
+
+[ 2015-04-02T17:02:53+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004527s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.008780s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000921s ]
+
+[ 2015-04-02T17:03:40+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005413s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.010400s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.001020s ]
+
+[ 2015-04-02T17:04:10+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003005s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.009126s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000909s ]
+
+[ 2015-04-02T17:04:51+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003394s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.009995s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000790s ]
+
+[ 2015-04-02T17:04:59+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004891s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.009070s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000819s ]
+
+[ 2015-04-02T17:04:59+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008406s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.017402s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000885s ]
+
+[ 2015-04-02T17:04:59+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007486s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.008450s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000893s ]
+
+[ 2015-04-02T17:04:59+08:00 ] ::1 /blog/index.php/Home/Index/hot
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004523s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.009313s ]
+SQL: SELECT * FROM `bl_article` ORDER BY aid desc LIMIT 7   [ RunTime:0.000768s ]
+
+[ 2015-04-02T17:05:03+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003094s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.008463s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000820s ]
+
+[ 2015-04-02T17:05:03+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002606s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.011894s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000994s ]
+
+[ 2015-04-02T17:05:03+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003128s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.008374s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000857s ]
+
+[ 2015-04-02T17:05:04+08:00 ] ::1 /blog/index.php/Home/Index/hot
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003090s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.010823s ]
+SQL: SELECT * FROM `bl_article` ORDER BY aid desc LIMIT 7   [ RunTime:0.000805s ]
+
+[ 2015-04-02T17:05:04+08:00 ] ::1 /blog/index.php/Home/Index/hot
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005252s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.008444s ]
+SQL: SELECT * FROM `bl_article` ORDER BY aid desc LIMIT 7   [ RunTime:0.000781s ]
+
+[ 2015-04-02T17:05:04+08:00 ] ::1 /blog/index.php/Home/Index/hot
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002622s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.009106s ]
+SQL: SELECT * FROM `bl_article` ORDER BY aid desc LIMIT 7   [ RunTime:0.000847s ]
+
+[ 2015-04-02T17:05:05+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003415s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.011411s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.001154s ]
+
+[ 2015-04-02T17:05:05+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004305s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.011255s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000744s ]
+
+[ 2015-04-02T17:05:05+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003340s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.008787s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000895s ]
+
+[ 2015-04-02T17:05:13+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003244s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.008758s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000859s ]
+
+[ 2015-04-02T17:05:19+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003372s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.008950s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000857s ]
+
+[ 2015-04-02T17:05:19+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003139s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.008977s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000898s ]
+
+[ 2015-04-02T17:05:19+08:00 ] ::1 /blog/index.php/Home/Index/hot
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004132s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.009122s ]
+SQL: SELECT * FROM `bl_article` ORDER BY aid desc LIMIT 7   [ RunTime:0.000841s ]
+
+[ 2015-04-02T17:07:05+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004164s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.008762s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000903s ]
+
+[ 2015-04-02T17:07:10+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003859s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.010911s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000881s ]
+
+[ 2015-04-02T17:07:10+08:00 ] ::1 /blog/index.php/Home/Index/hot
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004454s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.008715s ]
+SQL: SELECT * FROM `bl_article` ORDER BY aid desc LIMIT 7   [ RunTime:0.000956s ]
+
+[ 2015-04-02T17:07:10+08:00 ] ::1 /blog/index.php/Home/Index/hot
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004903s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.008407s ]
+SQL: SELECT * FROM `bl_article` ORDER BY aid desc LIMIT 7   [ RunTime:0.000795s ]
+
+[ 2015-04-02T17:07:10+08:00 ] ::1 /blog/index.php/Home/Index/hot
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004851s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.008673s ]
+SQL: SELECT * FROM `bl_article` ORDER BY aid desc LIMIT 7   [ RunTime:0.000750s ]
+
+[ 2015-04-02T17:07:10+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002076s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004476s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.009380s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000860s ]
+
+[ 2015-04-02T17:07:11+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003714s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.009007s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000791s ]
+
+[ 2015-04-02T17:07:11+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003755s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.008134s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000815s ]
+
+[ 2015-04-02T17:58:57+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001570s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.004637s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000451s ]
+
+[ 2015-04-02T17:58:58+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001851s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.003881s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000495s ]
+
+[ 2015-04-02T17:59:00+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001458s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.005238s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000386s ]
+
+[ 2015-04-02T17:59:05+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001373s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.005103s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000471s ]
+
+[ 2015-04-02T17:59:39+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002092s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.011559s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000438s ]
+
+[ 2015-04-02T18:00:17+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003937s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.009569s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000942s ]
+
+[ 2015-04-02T18:00:37+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004681s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.011397s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000828s ]
+
+[ 2015-04-02T18:00:42+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003781s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.010143s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000832s ]
+
+[ 2015-04-02T18:00:46+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004319s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.010269s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000783s ]
+
+[ 2015-04-02T18:00:48+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004188s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.010965s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000907s ]
+
+[ 2015-04-02T18:00:50+08:00 ] ::1 /blog/index.php/Home/Index/tui
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003328s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.010609s ]
+SQL: SELECT * FROM `bl_article` WHERE ( atui = 1 ) LIMIT 7   [ RunTime:0.000803s ]
+
+[ 2015-04-02T18:00:53+08:00 ] ::1 /blog/index.php/Home/Index/hot
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003868s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.008362s ]
+SQL: SELECT * FROM `bl_article` ORDER BY aid desc LIMIT 7   [ RunTime:0.000843s ]
+
+[ 2015-04-02T18:00:53+08:00 ] ::1 /blog/index.php/Home/Index/hot
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.002408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004147s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_article` [ RunTime:0.008609s ]
+SQL: SELECT * FROM `bl_article` ORDER BY aid desc LIMIT 7   [ RunTime:0.000928s ]
+
