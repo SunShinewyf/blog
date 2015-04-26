@@ -26,22 +26,21 @@
              </form>
          </div> -->  
          </div>
-     
+     <div class="nav-wrap">
   <ul id="nav">
   
-    <li class="jquery_out">
-      <div class="jquery_inner">
-        <div class="jquery"><a href="/blog/index.php/Home/Index/index">首页</a></div>
-      </div>
+    <li>
+       <a href="/blog/Home/Index/index">首页</a>
     </li>
-    <?php if(is_array($parent)): $i = 0; $__LIST__ = $parent;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><a href="/blog/index.php/Home/Index/articlelist/e/<?php echo ($vo["mid"]); ?>"><?php echo ($vo['mname']); ?></a>
+    <?php if(is_array($parent)): $i = 0; $__LIST__ = $parent;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><a href="/blog/Home/Index/articlelist/e/<?php echo ($vo["mid"]); ?>"><?php echo ($vo['mname']); ?></a>
       <ul class="drop">
-       <?php if(is_array($result)): $i = 0; $__LIST__ = $result;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$li): $mod = ($i % 2 );++$i; if($vo['mid'] == $li['parentid']): ?><li><a href="/blog/index.php/Home/Index/GetAll/e/<?php echo ($li["mid"]); ?>"><?php echo ($li['mname']); ?></a></li><?php endif; endforeach; endif; else: echo "" ;endif; ?>  
+       <?php if(is_array($result)): $i = 0; $__LIST__ = $result;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$li): $mod = ($i % 2 );++$i; if($vo['mid'] == $li['parentid']): ?><li><a href="/blog/Home/Index/GetAll/e/<?php echo ($li["mid"]); ?>"><?php echo ($li['mname']); ?></a></li><?php endif; endforeach; endif; else: echo "" ;endif; ?>  
       </ul>
     </li><?php endforeach; endif; else: echo "" ;endif; ?>
-   <li><a href="/blog/index.php/Home/Index/message">留言板</a>
-    <li><a href="/blog/index.php/Home/Index/feel">个人微语</a>
+   <li><a href="/blog/Home/Index/message">留言板</a></li>
+    <li><a href="/blog/Home/Index/feel">个人微语</a></li>
   </ul>
+</div>
    
   </div>
      
@@ -49,16 +48,16 @@
         <div class="main-left">
             <ul class="article">
             <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$id): $mod = ($i % 2 );++$i;?><li class="parts">
-                  <p class="article-title"> <a href="/blog/index.php/Home/Index/detail/e/<?php echo ($id["aid"]); ?>"><?php echo ($id['atitle']); ?></a></p>
+                  <p class="article-title"> <a href="/blog/Home/Index/detail/e/<?php echo ($id["aid"]); ?>"><?php echo ($id['atitle']); ?></a></p>
                   <p1 class="article-details"><font class="date">发布于:<?php echo ($id['aupdate']); ?></font>&nbsp;&nbsp;<font class="skan">浏览次数:<?php echo ($id['atime']); ?></font>&nbsp;&nbsp;<font class="type">分类:<?php echo ($id['Module']['mname']); ?></font></p1></br>
                   <p1 class="article-content"><?php echo (subtext(strip_tags($id['acontent']),200)); ?></p1>
-                  <div class="see-more"><a href="/blog/index.php/Home/Index/detail/e/<?php echo ($id["aid"]); ?>">查看全文</a></div>
+                  <div class="see-more"><a href="/blog/Home/Index/detail/e/<?php echo ($id["aid"]); ?>">查看全文</a></div>
                 </li><?php endforeach; endif; else: echo "" ;endif; ?>
             </ul>
            <div class="boxs">
                <h1>前端技术区</h1>
                <ul class="type-list">
-                   <?php if(is_array($home)): $i = 0; $__LIST__ = $home;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$ho): $mod = ($i % 2 );++$i;?><li><a href="/blog/index.php/Home/Index/detail/e/<?php echo ($ho["aid"]); ?>"><?php echo (subtext($ho["atitle"],28)); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+                   <?php if(is_array($home)): $i = 0; $__LIST__ = $home;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$ho): $mod = ($i % 2 );++$i;?><li><a href="/blog/Home/Index/detail/e/<?php echo ($ho["aid"]); ?>"><?php echo (subtext($ho["atitle"],22)); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
                </ul>
            
            </div>
@@ -66,20 +65,20 @@
            <div class="boxs">
                <h1>后端技术区</h1>
                  <ul class="type-list">
-                   <?php if(is_array($admin)): $i = 0; $__LIST__ = $admin;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$ad): $mod = ($i % 2 );++$i;?><li><a href="/blog/index.php/Home/Index/detail/e/<?php echo ($ad["aid"]); ?>"><?php echo (subtext($ad["atitle"],28)); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+                   <?php if(is_array($admin)): $i = 0; $__LIST__ = $admin;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$ad): $mod = ($i % 2 );++$i;?><li><a href="/blog/Home/Index/detail/e/<?php echo ($ad["aid"]); ?>"><?php echo (subtext($ad["atitle"],22)); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
                  </ul>
            </div>
             <div class="boxs" style="margin-bottom:20px;">
                 <h1>最新留言</h1>
                   <ul class="type-list">
-                <?php if(is_array($mess)): $i = 0; $__LIST__ = $mess;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$me): $mod = ($i % 2 );++$i;?><li><a href="/blog/index.php/Home/Index/message"><?php echo (subtext($me["mcontent"],28)); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+                <?php if(is_array($mess)): $i = 0; $__LIST__ = $mess;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$me): $mod = ($i % 2 );++$i;?><li><a href="/blog/Home/Index/message"><?php echo (subtext($me["mcontent"],22)); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
                 </ul>
            </div>
            
            <div class="boxs"  style="margin-bottom:20px;">
               <h1>最新感悟</h1>
                 <ul class="type-list">
-                  <?php if(is_array($feel)): $i = 0; $__LIST__ = $feel;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$fe): $mod = ($i % 2 );++$i;?><li><a href=""><?php echo (subtext($fe["fcontent"],28)); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
+                  <?php if(is_array($feel)): $i = 0; $__LIST__ = $feel;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$fe): $mod = ($i % 2 );++$i;?><li><a href=""><?php echo (subtext($fe["fcontent"],22)); ?></a></li><?php endforeach; endif; else: echo "" ;endif; ?>
                 </ul>
            </div>
         </div>
@@ -120,7 +119,7 @@
      </div>
     </div>
  <div id="footer">
-   <p>Powerby SunShine &nbsp;&nbsp;&nbsp 鄂ICP备15002472号-1</p>
+   <p>Powerby SunShine &nbsp;&nbsp;&nbsp;</p>
     <p>CopyRight©2015 版权所有：SunShine</p>
 </div>
  <script type="text/javascript"  src="/blog/Public/Js/jquery.min.js"></script>
@@ -137,13 +136,13 @@
     	// alert(tent.length);
     	if(tent.length==0)
     		{
-    		    $.get("/blog/index.php/Home/Index/tui",function(data){
+    		    $.get("/blog/Home/Index/tui",function(data){
     		        $(".title-list").empty();
 			        var count = data.length;
                     var i = 0;
                     var b="";
                        for(i=0;i<count;i++){
-                           b += '<li><a href="/blog/index.php/Home/Index/detail/e/'+data[i].aid+'">'+ data[i].atitle +'</a></li>';
+                           b += '<li><a href="/blog/Home/Index/detail/e/'+data[i].aid+'">'+ data[i].atitle +'</a></li>';
                        }
                     $(".title-list").append(b);
     		    });
@@ -151,7 +150,7 @@
     	
     	 $("#hot").mouseover(function(){
     		 $.ajax({
-    			 url: "/blog/index.php/Home/Index/hot",
+    			 url: "/blog/Home/Index/hot",
     			 type: "post",
     			 success: function(data){
     				    $(".title-list").empty();
@@ -159,7 +158,7 @@
                         var i = 0;
                         var b="";
                            for(i=0;i<count;i++){
-                               b += '<li><a href="/blog/index.php/Home/Index/detail/e/'+data[i].aid+'">'+ data[i].atitle +'</a></li>';
+                               b += '<li><a href="/blog/Home/Index/detail/e/'+data[i].aid+'">'+ data[i].atitle +'</a></li>';
                            }
                         $(".title-list").append(b);
     			 }
@@ -168,7 +167,7 @@
     	 
     	 $("#tui").mouseover(function(){
     		 $.ajax({
-    			 url: "/blog/index.php/Home/Index/tui",
+    			 url: "/blog/Home/Index/tui",
     			 type: "post",
     			 success: function(data){
     				    $(".title-list").empty();
@@ -176,7 +175,7 @@
                         var i = 0;
                         var b="";
                            for(i=0;i<count;i++){
-                               b += '<li><a href="/blog/index.php/Home/Index/detail/e/'+data[i].aid+'">'+ data[i].atitle +'</a></li>';
+                               b += '<li><a href="/blog/Home/Index/detail/e/'+data[i].aid+'">'+ data[i].atitle +'</a></li>';
                            }
                         $(".title-list").append(b);
     			 }

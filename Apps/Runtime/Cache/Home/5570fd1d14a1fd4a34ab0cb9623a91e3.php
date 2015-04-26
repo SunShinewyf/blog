@@ -26,22 +26,21 @@
              </form>
          </div> -->  
          </div>
-     
+     <div class="nav-wrap">
   <ul id="nav">
   
-    <li class="jquery_out">
-      <div class="jquery_inner">
-        <div class="jquery"><a href="/blog/index.php/Home/Index/index">首页</a></div>
-      </div>
+    <li>
+       <a href="/blog/index.php/Home/Index/index">首页</a>
     </li>
     <?php if(is_array($parent)): $i = 0; $__LIST__ = $parent;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li><a href="/blog/index.php/Home/Index/articlelist/e/<?php echo ($vo["mid"]); ?>"><?php echo ($vo['mname']); ?></a>
       <ul class="drop">
        <?php if(is_array($result)): $i = 0; $__LIST__ = $result;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$li): $mod = ($i % 2 );++$i; if($vo['mid'] == $li['parentid']): ?><li><a href="/blog/index.php/Home/Index/GetAll/e/<?php echo ($li["mid"]); ?>"><?php echo ($li['mname']); ?></a></li><?php endif; endforeach; endif; else: echo "" ;endif; ?>  
       </ul>
     </li><?php endforeach; endif; else: echo "" ;endif; ?>
-   <li><a href="/blog/index.php/Home/Index/message">留言板</a>
-    <li><a href="/blog/index.php/Home/Index/feel">个人微语</a>
+   <li><a href="/blog/index.php/Home/Index/message">留言板</a></li>
+    <li><a href="/blog/index.php/Home/Index/feel">个人微语</a></li>
   </ul>
+</div>
    
   </div>
      
@@ -97,9 +96,10 @@
         </div>  
      
      </div>
+     </div>
 
  <div id="footer">
-   <p>Powerby SunShine &nbsp;&nbsp;&nbsp 鄂ICP备15002472号-1</p>
+   <p>Powerby SunShine &nbsp;&nbsp;&nbsp;</p>
     <p>CopyRight©2015 版权所有：SunShine</p>
 </div>
  <script type="text/javascript"  src="/blog/Public/Js/jquery.min.js"></script>

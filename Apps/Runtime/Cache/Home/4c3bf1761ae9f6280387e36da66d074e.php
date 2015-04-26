@@ -108,9 +108,9 @@
         </div>  
      
      </div>
-
+   </div>
  <div id="footer">
-   <p>Powerby SunShine &nbsp;&nbsp;&nbsp 鄂ICP备15002472号-1</p>
+   <p>Powerby SunShine &nbsp;&nbsp;&nbsp;</p>
     <p>CopyRight©2015 版权所有：SunShine</p>
 </div>
  <script type="text/javascript"  src="/blog/Public/Js/jquery.min.js"></script>

@@ -3,8 +3,8 @@
    <head>
      <title>SunShine个人博客，一个专注于web技术草根的成长之路</title>
      <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-     <link rel="stylesheet" type="text/css" href="/blog/Public/Css/style.css"/>
-     <link rel="stylesheet" type="text/css" href="/blog/Public/Css/detail.css"/>
+     <link rel="stylesheet" type="text/css" href="/Public/Css/style.css"/>
+     <link rel="stylesheet" type="text/css" href="/Public/Css/detail.css"/>
    </head>
    
    <body>

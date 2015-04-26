@@ -22,7 +22,7 @@
             $(function(){
                 $("#login-form").submit(function(){
                  var username=$("#username");
-        	   	 var password=$("#password");
+        	   	   var password=$("#password");
         	   	 if(username.val()=="")
 	    		 {
 	    		     $("#msg").text("请填写登录用户名!");
@@ -36,6 +36,7 @@
 	    		     return false;
 	    		 }
         	   	   $.ajax({
+                 
             	    	 url: "__APP__/Admin/Login/recheck",
             	    	 type: 'post',
             	    	 data: {

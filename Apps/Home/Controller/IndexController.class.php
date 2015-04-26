@@ -9,17 +9,18 @@ class IndexController extends Controller {
          $article = D('Article');
          $message = M('Message');
          $feel =M('Feel');
+
          $fee = $feel->limit(5)->select();
 //          dump($fee);
 //          dump($message);
          $mess = $message->limit(5)->select();
 //          dump($mess);
 //          exit;
-         $parent = $module->where('parentid = 0 and mid!=13 and mid!=14')->select();
+         $parent = $module->where('parentid = 0')->select();
          $result = $module->where("parentid!= 0")->select();
          $mid1 = $module->where("parentid = 6")->field('mid')->select();
          $mid2 = $module->where("parentid = 7")->field('mid')->select();
-         $list = $article->relation(true)->limit(2)->select();
+         $list = $article->relation(true)->limit(2)->order('aid desc')->select();
 //          dump($tui);
 //          exit;
          $this->assign("home",$home);
@@ -65,8 +66,10 @@ class IndexController extends Controller {
         //dump( $parentid);
         $article = D("Article");
         $module = M('module');
+        $count=$article->count();
+        $p = getpage($count,8);
         $mid2 = $module->where("parentid = $parentid")->field('mid')->select();
-        $parent = $module->where('parentid = 0 and mid!=13 and mid!=14')->select();
+        $parent = $module->where('parentid = 0')->select();
         $result = $module->where("parentid!= 0")->select();
         $data=array();     //attention
         foreach($mid2 as $key=>$value)
@@ -79,9 +82,9 @@ class IndexController extends Controller {
       // dump($data);
        $data[$key+1]=$parentid;
         $condition['mid'] = array('in',$data);
-        $list = $article->relation(true)->where($condition)->select();
+        $list = $article->relation(true)->limit($p->firstRow.','.$p->listRows)->where($condition)->select();
        // dump($list);
-      
+        $this->assign('page', $p->show());
         $this->assign("parent",$parent);
         $this->assign("result",$result);
         $this->assign("list",$list);
@@ -95,7 +98,7 @@ class IndexController extends Controller {
         $mid = $_GET['e'];
         $article = D('Article');
         $module = M('module');
-        $parent = $module->where('parentid = 0 and mid!=13 and mid!=14')->select();
+        $parent = $module->where('parentid = 0')->select();
         $result = $module->where("parentid!= 0")->select();
         $list = $article->where("mid = $mid")->select();
         $this->assign("parent",$parent);
@@ -141,7 +144,7 @@ class IndexController extends Controller {
      
         $message = M('Message');
         $module = M('Module');
-        $parent = $module->where('parentid = 0 and mid!=13 and mid!=14')->select();
+        $parent = $module->where('parentid = 0')->select();
         $result = $module->where("parentid!= 0")->select();
         $count=$message->count();
         $p = getpage($count,4);
@@ -173,14 +176,15 @@ class IndexController extends Controller {
     
     public function feel(){
         $module = M('Module');
-        $parent = $module->where('parentid = 0 and mid!=13 and mid!=14')->select();
+        $parent = $module->where('parentid = 0')->select();
         $result = $module->where("parentid!= 0")->select();
         $feel = M('Feel');
+
         $count=$feel->count();
         $p = getpage($count,8);
         $list = $feel->limit($p->firstRow.','.$p->listRows)->select();
-        //         dump($mess);
-        //         exit;
+        // dump($list);
+        // exit;
         $this->assign("parent",$parent);
         $this->assign('page', $p->show());
         $this->assign("list",$list);

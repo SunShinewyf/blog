@@ -1,0 +1,16 @@
+[ 2015-04-03T20:09:03+08:00 ] ::1 /blog/index.php/Admin/Login/recheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003835s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_admin` [ RunTime:0.896896s ]
+SQL: SELECT * FROM `bl_admin`  [ RunTime:0.000785s ]
+
+[ 2015-04-03T20:49:23+08:00 ] ::1 /blog/index.php/Admin/Login/recheck
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004825s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\wamp\www\blog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `bl_admin` [ RunTime:0.022356s ]
+SQL: SELECT * FROM `bl_admin`  [ RunTime:0.000667s ]
+

@@ -6,6 +6,7 @@ class FeelController extends CommonController {
     public function index(){
         $Feel = M('Feel');
         $feel = $Feel->select();
+      
         $this->assign('list',$feel);
          $this->display();
     }

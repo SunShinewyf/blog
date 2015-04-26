@@ -73,6 +73,7 @@ class ArticleController extends CommonController {
    
    public function edit()
    {
+	 
        $article = D("Article");
        $module = M('Module');
        $aid = $_GET['id'];
@@ -87,8 +88,8 @@ class ArticleController extends CommonController {
    
    public function update()
    {
-//       dump($_POST);
-//    exit;
+   //  dump($_POST);
+  // exit;
       $aid=$_POST['aid'];
       $data['atitle'] = $_POST['title'];
       $data['aauthor'] = $_POST['author'];

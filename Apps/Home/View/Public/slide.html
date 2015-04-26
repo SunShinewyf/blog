@@ -12,13 +12,11 @@
              </form>
          </div> -->  
          </div>
-     
+     <div class="nav-wrap">
   <ul id="nav">
   
-    <li class="jquery_out">
-      <div class="jquery_inner">
-        <div class="jquery"><a href="__URL__/index">首页</a></div>
-      </div>
+    <li>
+       <a href="__URL__/index">首页</a>
     </li>
     <volist name="parent" id="vo">
     <li><a href="__URL__/articlelist/e/{$vo.mid}">{$vo['mname']}</a>
@@ -30,8 +28,9 @@
     </li>
 
     </volist>
-   <li><a href="__URL__/message">留言板</a>
-    <li><a href="__URL__/feel">个人微语</a>
+   <li><a href="__URL__/message">留言板</a></li>
+    <li><a href="__URL__/feel">个人微语</a></li>
   </ul>
+</div>
    
   </div>
